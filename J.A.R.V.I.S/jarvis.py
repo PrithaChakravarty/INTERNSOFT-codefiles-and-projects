@@ -259,9 +259,7 @@ if __name__ == '__main__':
             speak(answer)
             print(answer)
 
-        elif "log off" in query or "sign out" in query or "shutdown" in query:
-            speak("ok, shutting down your PC in 10 seconds - make sure you have saved all your files and exited from all applications")
-            subprocess.call(["shutdown", "/s"])
+       
 
 
 time.sleep(3)
